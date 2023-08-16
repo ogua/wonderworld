@@ -22,7 +22,7 @@
   <meta property="og:title" content="Wonder World International School | Home" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://wonderworldinternationalschool.com" />
-  <meta property="og:image" content="/assets/images/banner.jpg" />
+  <meta property="og:image" content="https://wonderworldinternationalschool.com/assets/images/banner.jpg" />
 
 
   <meta name="twitter:title" content="Wonder World International School | Home" />
@@ -30,7 +30,7 @@
   <meta name="twitter:image" content="https://wonderworldinternationalschool.com/assets/images/banner.jpg" />
   <meta name="twitter:description" content="Welcome to the official website of Wonder World International School, get all the latest information about Wonder World International School." />
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Wonder World International School | Home","description":"Welcome to the official website of Wonder World International School, get all the latest information about Wonder World International School.","image":"/assets/images/banner.jpg"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Wonder World International School | Home","description":"Welcome to the official website of Wonder World International School, get all the latest information about Wonder World International School.","image":"https://wonderworldinternationalschool.com/assets/images/banner.jpg"}</script>
     
     <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/ico">
 
