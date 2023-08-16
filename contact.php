@@ -101,7 +101,7 @@ Author URL: http://ogusesitsolutions.com
                                 </div>
                                 <div class="cont-right">
                                     <h6>Email Us</h6>
-                                    <p><a href="mailto:example@mail.com" class="mail">example@mail.com</a></p>
+                                    <p><a href="mailto:wonderworldintsch@gmail.com" class="mail">wonderworldintsch@gmail.com</a></p>
                                 </div>
                             </div>
                             <div class="d-flex contact-grid mt-4 pt-lg-2">
@@ -110,7 +110,7 @@ Author URL: http://ogusesitsolutions.com
                                 </div>
                                 <div class="cont-right">
                                     <h6>Customer Support</h6>
-                                    <p><a href="mailto:info@support.com" class="mail">info@support.com</a></p>
+                                    <p><a href="mailto:wonderworldintsch@gmail.com" class="mail">wonderworldintsch@gmail.com</a></p>
                                 </div>
                             </div>
                         </div>
