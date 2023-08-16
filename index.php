@@ -8,8 +8,32 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+
+  <title>Wonder World International School | Home</title>
+
+  <meta name="description" content="We believe students learn best when they feel safe, valued and happy. Our staff is committed to providing an environment that nurtures personal growth and self-esteem.">
+
+  <meta name="keywords" content="Wonder World International School, Wonder World, About Wonder World, About Wonder World International, Schools at Teshie, Wonder World, about Wonder World, Wonder World gallary, Wonder World images, Wonder World videos, Wonder World events, Wonder World school system, oguse it solutions, oguses, OguSesITSolutions, oguaschoolz">
+
+  <link rel="canonical" href="https://wonderworldinternationalschool.com"/>
+
+  <meta property="og:description" content="Welcome to the official website of Wonder World International School, get all the latest information about Wonder World International School." />
+
+  <meta property="og:title" content="Wonder World International School | Home" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://wonderworldinternationalschool.com" />
+  <meta property="og:image" content="/assets/images/banner.jpg" />
+
+
+  <meta name="twitter:title" content="Wonder World International School | Home" />
+  <meta name="twitter:site" content="@blogogua" />
+  <meta name="twitter:image" content="https://wonderworldinternationalschool.com/assets/images/banner.jpg" />
+  <meta name="twitter:description" content="Welcome to the official website of Wonder World International School, get all the latest information about Wonder World International School." />
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Wonder World International School | Home","description":"Welcome to the official website of Wonder World International School, get all the latest information about Wonder World International School.","image":"/assets/images/banner.jpg"}</script>
+    
     <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/ico">
+
     <!-- Google fonts -->
     <link href="//fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- Template CSS Style link -->
