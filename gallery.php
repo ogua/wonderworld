@@ -25,10 +25,10 @@
     <section class="inner-banner py-5">
         <div class="w3l-breadcrumb py-lg-5">
             <div class="container pt-4 pb-sm-4">
-                <h4 class="inner-text-title pt-5">Gallary</h4>
+                <h4 class="inner-text-title pt-5">Gallery</h4>
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="index.php">Home</a></li>
-                    <li class="active"><i class="fas fa-angle-right"></i>Gallary</li>
+                    <li class="active"><i class="fas fa-angle-right"></i>Gallery</li>
                 </ul>
             </div>
         </div>
@@ -40,7 +40,7 @@
         <div class="container py-md-5 py-4">
             <div class="title-main text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
                 <p class="text-uppercase">Our Beautiful Moments</p>
-                <h3 class="title-style">Gallary</h3>
+                <h3 class="title-style">Gallery</h3>
             </div>
             <div class="row justify-content-center">
                 <?php

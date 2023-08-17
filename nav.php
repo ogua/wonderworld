@@ -33,8 +33,8 @@
                         </ul>
                       </li>
 
-                        <li class="nav-item <?php if($_SERVER['REQUEST_URI'] == "/gallary.php"){echo "active";} ?>">
-                            <a class="nav-link" href="gallary.php">Gallary</a>
+                        <li class="nav-item <?php if($_SERVER['REQUEST_URI'] == "/gallery.php"){echo "active";} ?>">
+                            <a class="nav-link" href="gallery.php">Gallery</a>
                         </li>
                         <li class="nav-item <?php if($_SERVER['REQUEST_URI'] == "/contact.php"){echo "active";} ?>">
                             <a class="nav-link" href="contact.php">Contact</a>

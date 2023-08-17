@@ -29,7 +29,7 @@
                     <p class="mb-2 pe-xl-5">Address : Wonder World International School, Adjiriganor, East-Legon, <br>(Father Odai Kwabina Street) GD-210-9384.
                     </p>
                     <p class="mb-2">Phone Number : <a href="tel:+233 55 823 0501">+233 55 823 0501</a></p>
-                    <p class="mb-2">Email : <a href="mailto:info@example.com">info@example.com</a></p>
+                    <p class="mb-2">Email : <a href="mailto:wonderworldintsch@gmail.com">wonderworldintsch@gmail.com</a></p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-6 footer-list-29 mt-md-0 mt-4">
                     <ul>

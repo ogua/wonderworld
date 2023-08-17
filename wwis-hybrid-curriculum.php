@@ -36,7 +36,7 @@
         <div class="container py-md-5 py-4">
             <p>Wwis Hybrid Curriculum is an comprehensive combination of the Enhanced GES Curriculum British Curriculum American Curriculum as well as Montessori for our preschoolers. Our aim is to train our students to adapt to the various teaching styles in different part of the world. At Wonder World International School we care about your child’s complete development and provide our students with excellent first class education molding them into independent learners and achievers in a positive safe nurturing family oriented environment.</p>
 
-            <h3 class="mt-5">School Board</h3>
+            <!-- <h3 class="mt-5">School Board</h3>
             <p>The school governing board plays a key role in supporting the school head teachers and staff in the provision of quality education. 
 The school board is to support the school head to provide the best possible education and educational opportunities for all learners by setting the strategic direction for the school. 
 </p>
@@ -47,7 +47,7 @@ The school board is to support the school head to provide the best possible educ
 •   Dr Jonathan Adjimani (Senior Lecturer UG(Biochemistry Department)  <br>
 •   Mr Samuel Agbo (Parent)
 </p>
-
+ -->
 <h3 class="mt-5">Non discrimination Policy</h3>
 <p>Wonder world International School admits students of any race, nationality, and ethnic groups to all rights and privileges, programs and activities made available to students of the school. It does not discriminate on the basis of race, color, nationality and ethnicity in the administration of its educational policies, admissions policies, athletics or any other school administered programs.</p>
 

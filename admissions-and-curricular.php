@@ -35,7 +35,7 @@
     <section class="services-w3l-block py-5" id="features">
         <div class="container py-md-5 py-4">
             <p>Our facility caters for early year’s starters (6 months up to 5 years) up to preschoolers. We also have primary school starting from kindergarten up to grade 9.  Currently our physical school is still growing our classes go up to grade 2 but there is room for expansion for more classes which is work in progress.
-We admit children from 6months of age into our daycare and preschool.
+We admit children from three(3) months of age into our daycare and preschool.
 </p>
 
 <p>Academic year starts in January each new year but Admissions into our school for regular school is ongoing throughout the year. We use a Hybrid Curriculum which includes the Ghana Education Service New Standard Based Curriculum (SBC) as the core curriculum which has at its heart educational strategies that ensure that learners leave school better positioned to contribute to society. Our school term is between 14- 16 weeks per quarter. 
@@ -88,7 +88,7 @@ Dates are usually communicated to new registered students and continuing student
 </p>
 
 <h3 class="mt-5">Extra-Curricular Activities</h3>
-<p>● UCMAS <br>
+<p>● Abacus with BraiNest <br>
 ● Brainzy Kids Club <br>
 ● Ballet <br>
 ● Tennis <br>

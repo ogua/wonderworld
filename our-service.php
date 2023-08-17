@@ -69,7 +69,7 @@
                     <div class="icon-box icon-box-clr-2">
                         <div class="icon"><i class="fas fa-book-reader"></i></div>
                         <h4 class="title"><a href="#about">Extra- Curricular Activities</a></h4>
-                        <p>(Super Readers Club, Swimming, Tennis, Ballet, UCmas)</p>
+                        <p>(Super Readers Club, Swimming, Tennis, Ballet, Abacus with BraiNest)</p>
                     </div>
                 </div>
             </div>

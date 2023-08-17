@@ -24,7 +24,7 @@
      $ttgsqlquery = mysqli_query($conn,$ttgsql);
      $totalgstudent = mysqli_num_rows($ttgsqlquery);
     ?>
-<section class="w3-stats pt-4 pb-5" id="stats">
+<!-- <section class="w3-stats pt-4 pb-5" id="stats">
         <div class="container pb-md-5 pb-4">
             <div class="title-main text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
                 <p class="text-uppercase">Our Statistics</p>
@@ -61,4 +61,4 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
