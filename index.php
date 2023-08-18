@@ -60,15 +60,15 @@
         <div class="banner-content">
             <div class="container py-4">
                 <div class="row align-items-center pt-sm-5 pt-4">
-                    <div class="col-md-6">
-                        <h3 class="mb-lg-4 mb-3">Your Kids Deserve The<span class="d-block">Best Education</span>
+                    <div class="col-md-7">
+                        <h3 class="mb-lg-4 mb-3">Empowering Minds<span class="d-block">Shaping Leaders</span>
                         </h3>
-                        <p class="banner-sub">Active Learning, Expert Teachers & Safe Environment</p>
+                        <p class="banner-sub">A Journey of Excellence and Integrity</p>
                         <div class="d-flex align-items-center buttons-banner">
                             <a href="tel:+233 55 823 0501" class="btn btn-style mt-lg-5 mt-4">Contact Us</a>
                         </div>
                     </div>
-                    <div class="col-md-6 right-banner-2 text-end position-relative mt-md-0 mt-5">
+                    <div class="col-md-5 right-banner-2 text-end position-relative mt-md-0 mt-5">
                         <div class="sub-banner-image mx-auto">
                             <img src="assets/images/banner.png" class="img-fluid position-relative" alt=" ">
                         </div>
