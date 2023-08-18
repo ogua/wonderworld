@@ -38,6 +38,13 @@
     <link href="//fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
+
+    <!--animate-->
+    <link href="/assets/css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <script src="/assets/js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </head>
 
 <body>
@@ -67,7 +74,7 @@
                         </div>
                         <div class="banner-style-1 position-absolute">
                             <div class="banner-style-2 position-relative">
-                                <h4>Back to School</h4>
+                                <h4>Welcome back to School</h4>
                             </div>
                         </div>
                     </div>
