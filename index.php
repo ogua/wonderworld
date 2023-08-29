@@ -92,12 +92,18 @@
     <section class="w3l-service-1 py-5">
         <div class="container py-md-5 py-4">
             <div class="title-main text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
-                <p class="text-uppercase">Featured Videos</p>
+                <p class="text-uppercase">Featured Video</p>
                 <h3 class="title-style"></h3>
             </div>
             <div class="content23-col-2 text-center">
                 <div class="col-md-12">
                     <iframe width="100%" height="500" src="https://www.youtube.com/embed/kK66FSFdLrs?si=My7Ex2Qgq3u0R1KO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <!-- <video width="100%" height="500" controls>
+        <source src="/assets/videos/wonder-world.mp4" type="video/mp4">
+            Error Message
+    </video> -->
+
                 </div>
             </div>
         </div>
