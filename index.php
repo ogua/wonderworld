@@ -101,7 +101,7 @@
 
                     <hr> -->
 
-        <video width="100%" height="500" style="background-color: #000;"controls>
+        <video width="100%" height="500" title="WELCOME TO WONDER WORLD INTERNATIONAL SCHOOL" style="background-color: #000;"controls>
             <source src="/assets/videos/wonder-world.mp4" type="video/mp4">
                 Error Message
         </video>
