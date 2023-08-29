@@ -88,6 +88,22 @@
     <?php include('mission.php') ?>
     <!-- //mission visio core -->
 
+    <!-- why choose block -->
+    <section class="w3l-service-1 py-5">
+        <div class="container py-md-5 py-4">
+            <div class="title-main text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
+                <p class="text-uppercase">Featured Videos</p>
+                <h3 class="title-style"></h3>
+            </div>
+            <div class="content23-col-2 text-center">
+                <div class="col-md-12">
+                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/kK66FSFdLrs?si=My7Ex2Qgq3u0R1KO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //why choose block -->
+
     <!-- home image with content block -->
     <section class="w3l-servicesblock pt-lg-5 pt-4 pb-5 mb-lg-5" id="about">
         <div class="container pb-md-5 pb-4">
