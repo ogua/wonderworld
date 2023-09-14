@@ -1,233 +1,182 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Wonder World International School | Our Services</title>
+
+  <meta name="description" content="Our services includes Regular Admission,Summer School,Online School,After School Club,Saturday Care,Extra- Curricular Activities(Super Readers Club, Swimming, Tennis, Ballet, Abacus with BraiNest).">
+
+  <meta name="keywords" content="Wonder World International School, Wonder World, About Wonder World, About Wonder World International, Schools at Teshie, Wonder World, about Wonder World, Wonder World gallary, Wonder World images, Wonder World videos, Wonder World events, Wonder World school system, oguse it solutions, oguses, OguSesITSolutions, oguaschoolz">
+
+  <link rel="canonical" href="https://wonderworldinternationalschool.com/our-service.php"/>
+
+  <meta property="og:description" content="Our services includes Regular Admission,Summer School,Online School,After School Club,Saturday Care,Extra- Curricular Activities(Super Readers Club, Swimming, Tennis, Ballet, Abacus with BraiNest)." />
+
+  <meta property="og:title" content="Wonder World International School | Our Services" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://wonderworldinternationalschool.com/our-service.php" />
+  <meta property="og:image" content="https://wonderworldinternationalschool.com/assets/images/banner.jpg" />
+
+
+  <meta name="twitter:title" content="Wonder World International School | Our Services" />
+  <meta name="twitter:site" content="@blogogua" />
+  <meta name="twitter:image" content="https://wonderworldinternationalschool.com/assets/images/banner.jpg" />
+  <meta name="twitter:description" content="Our services includes Regular Admission,Summer School,Online School,After School Club,Saturday Care,Extra- Curricular Activities(Super Readers Club, Swimming, Tennis, Ballet, Abacus with BraiNest)." />
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Wonder World International School | Our Services","description":"Our services includes Regular Admission,Summer School,Online School,After School Club,Saturday Care,Extra- Curricular Activities(Super Readers Club, Swimming, Tennis, Ballet, Abacus with BraiNest).","image":"https://wonderworldinternationalschool.com/assets/images/banner.jpg"}</script>
+    
     <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/ico">
-    <!-- Google fonts -->
-    <link href="//fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <!-- Template CSS Style link -->
-    <link rel="stylesheet" href="assets/css/style-starter.css">
+    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@600&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- header -->
-    <?php include('nav.php') ?>
-    <!-- //header -->
-
-    <!-- inner banner -->
-    <section class="inner-banner py-5">
-        <div class="w3l-breadcrumb py-lg-5">
-            <div class="container pt-4 pb-sm-4">
-                <h4 class="inner-text-title pt-5">Our Services</h4>
-                <ul class="breadcrumbs-custom-path">
-                    <li><a href="index.php">Home</a></li>
-                    <li class="active"><i class="fas fa-angle-right"></i>Our Services</li>
-                </ul>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
             </div>
         </div>
-    </section>
-    <!-- //inner banner -->
+        <!-- Spinner End -->
 
-    <section class="services-w3l-block py-5" id="features">
-        <div class="container py-md-5 py-4">
-            <div class="row">
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
-                    <div class="icon-box icon-box-clr-1">
-                        <div class="icon"><i class="fas fa-book-reader"></i></div>
-                        <h4 class="title"><a href="#about">Regular Admission</a></h4>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mt-md-0 mt-4">
-                    <div class="icon-box icon-box-clr-2">
-                        <div class="icon"><i class="fas fa-book-reader"></i></div>
-                        <h4 class="title"><a href="#about">Summer School</a></h4>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mt-lg-0 mt-4">
-                    <div class="icon-box icon-box-clr-3">
-                        <div class="icon"><i class="fas fa-book-reader"></i></div>
-                        <h4 class="title"><a href="#about">Online School</a></h4>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mt-lg-0 mt-4">
-                    <div class="icon-box icon-box-clr-4">
-                        <div class="icon"><i class="fas fa-book-reader"></i></div>
-                        <h4 class="title"><a href="#about">After School Club</a></h4>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mt-lg-0 mt-4">
-                    <div class="icon-box icon-box-clr-1">
-                        <div class="icon"><i class="fas fa-book-reader"></i></div>
-                        <h4 class="title"><a href="#about">Saturday Care</a></h4>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mt-lg-0 mt-4">
-                    <div class="icon-box icon-box-clr-2">
-                        <div class="icon"><i class="fas fa-book-reader"></i></div>
-                        <h4 class="title"><a href="#about">Extra- Curricular Activities</a></h4>
-                        <p>(Super Readers Club, Swimming, Tennis, Ballet, Abacus with BraiNest)</p>
-                    </div>
-                </div>
+
+        <!-- Navbar Start -->
+        <?php include('navbar.php') ?>
+        <!-- Navbar End -->
+
+
+        <!-- Page Header End -->
+        <div class="container-xxl py-5 page-header position-relative mb-5">
+            <div class="container py-5">
+                <h1 class="display-2 text-white animated slideInDown mb-4">Our services</h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">About Us</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">Our services</li>
+                    </ol>
+                </nav>
             </div>
         </div>
-    </section>
+        <!-- Page Header End -->
 
-    <!-- courses section -->
-    <!-- <div class="w3l-grids-block-5 py-5">
-        <div class="container py-md-5 py-4">
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="coursecard-single">
-                        <div class="grids5-info position-relative">
-                            <img src="assets/images/blog.jpg" alt="" class="img-fluid" />
-                        </div>
-                        <div class="content-main-top">
-                            <h4><a href="#">Regular Admission</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
-                    <div class="coursecard-single">
-                        <div class="grids5-info position-relative">
-                            <img src="assets/images/blog.jpg" alt="" class="img-fluid" />
-                        </div>
-                        <div class="content-main-top">
-                            <h4><a href="#">Summer School</a></h4>
+         <!-- Classes Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img/classes-1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">Regular Admission</a>
+                            
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
-                    <div class="coursecard-single">
-                        <div class="grids5-info position-relative">
-                            <img src="assets/images/blog.jpg" alt="" class="img-fluid" />
-                        </div>
-                        <div class="content-main-top">
-                            <h4><a href="#">Online School</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-4">
-                    <div class="coursecard-single">
-                        <div class="grids5-info position-relative">
-                            <img src="assets/images/blog.jpg" alt="" class="img-fluid" />
-                        </div>
-                        <div class="content-main-top">
-                            <h4><a href="courses.html">After School Club</a></h4>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img/classes-1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">Summer School</a>
+                            
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-4">
-                    <div class="coursecard-single">
-                        <div class="grids5-info position-relative">
-                            <img src="assets/images/blog.jpg" alt="" class="img-fluid" />
-                        </div>
-                        <div class="content-main-top">
-                            <h4><a href="courses.html">Saturday Care</a></h4>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img/classes-1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">Online School</a>
+                            
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-4">
-                    <div class="coursecard-single">
-                        <div class="grids5-info position-relative">
-                            <img src="assets/images/blog.jpg" alt="" class="img-fluid" />
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img/classes-1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">After School Club</a>
+                            
+                            </div>
                         </div>
-                        <div class="content-main-top">
-                            <h4><a href="#">Extra- Curricular Activities</a></h4>
-                            <p>(Super Readers Club, Swimming, Tennis, Ballet, UCmas)</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img/classes-1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">Saturday Care</a>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="classes-item">
+                            <div class="bg-light rounded-circle w-75 mx-auto p-3">
+                                <img class="img-fluid rounded-circle" src="img/classes-1.jpg" alt="">
+                            </div>
+                            <div class="bg-light rounded p-4 pt-5 mt-n5">
+                                <a class="d-block text-center h3 mt-3 mb-4" href="">Extra- Curricular Activities</a>
+                                <p>(Super Readers Club, Swimming, Tennis, Ballet, Abacus with BraiNest)</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
-    <!-- //courses section -->
+        <!-- Classes End -->
 
-    <!-- footer block -->
-    <?php include('footer.php') ?>
-    <!-- //footer block -->
+        
+        <!-- Footer Start -->
+        <?php
+          include('footer.php');
+        ?>
+        <!-- Footer End -->
 
-    <!-- Js scripts -->
-    <!-- move top -->
-    <button onclick="topFunction()" id="movetop" title="Go to top">
-        <span class="fas fa-level-up-alt" aria-hidden="true"></span>
-    </button>
-    <script>
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () {
-            scrollFunction()
-        };
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("movetop").style.display = "block";
-            } else {
-                document.getElementById("movetop").style.display = "none";
-            }
-        }
+    <!-- JavaScript Libraries -->
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-    <!-- //move top -->
-
-    <!-- common jquery plugin -->
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <!-- //common jquery plugin -->
-
-    <!-- theme switch js (light and dark)-->
-    <script src="assets/js/theme-change.js"></script>
-    <!-- //theme switch js (light and dark)-->
-
-    <!-- MENU-JS -->
-    <script>
-        $(window).on("scroll", function () {
-            var scroll = $(window).scrollTop();
-
-            if (scroll >= 80) {
-                $("#site-header").addClass("nav-fixed");
-            } else {
-                $("#site-header").removeClass("nav-fixed");
-            }
-        });
-
-        //Main navigation Active Class Add Remove
-        $(".navbar-toggler").on("click", function () {
-            $("header").toggleClass("active");
-        });
-        $(document).on("ready", function () {
-            if ($(window).width() > 991) {
-                $("header").removeClass("active");
-            }
-            $(window).on("resize", function () {
-                if ($(window).width() > 991) {
-                    $("header").removeClass("active");
-                }
-            });
-        });
-    </script>
-    <!-- //MENU-JS -->
-
-    <!-- disable body scroll which navbar is in active -->
-    <script>
-        $(function () {
-            $('.navbar-toggler').click(function () {
-                $('body').toggleClass('noscroll');
-            })
-        });
-    </script>
-    <!-- //disable body scroll which navbar is in active -->
-
-    <!-- bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- //bootstrap -->
-    <!-- //Js scripts -->
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

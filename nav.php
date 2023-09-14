@@ -20,10 +20,11 @@
                             <a class="nav-link" href="about.php">About Us</a>
                         </li> -->
 
-                        <li class="nav-item dropdown <?php if($_SERVER['REQUEST_URI'] == "/about.php" || $_SERVER['REQUEST_URI'] == "/our-service.php" || $_SERVER['REQUEST_URI'] == "/wwis-hybrid-curriculum.php" || $_SERVER['REQUEST_URI'] == "/admissions-and-curricular.php" || $_SERVER['REQUEST_URI'] == "/student-and-staff-responsibility-and-dress-code.php" || $_SERVER['REQUEST_URI'] == "/covid-protocols.php"){echo "active";} ?>">
+                        <li class="nav-item dropdown <?php if($_SERVER['REQUEST_URI'] == "/about.php" || $_SERVER['REQUEST_URI'] == "/history.php"|| $_SERVER['REQUEST_URI'] == "/our-service.php" || $_SERVER['REQUEST_URI'] == "/wwis-hybrid-curriculum.php" || $_SERVER['REQUEST_URI'] == "/admissions-and-curricular.php" || $_SERVER['REQUEST_URI'] == "/student-and-staff-responsibility-and-dress-code.php" || $_SERVER['REQUEST_URI'] == "/covid-protocols.php"){echo "active";} ?>">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item <?php if($_SERVER['REQUEST_URI'] == "/about.php"){echo "active";} ?>" href="about.php">About us</a></li>
+                        <li><a class="dropdown-item <?php if($_SERVER['REQUEST_URI'] == "/history.php"){echo "active";} ?>" href="history.php">History</a></li>
+                        <li><a class="dropdown-item <?php if($_SERVER['REQUEST_URI'] == "/about.php"){echo "active";} ?>" href="about.php">About us</a></li>
                           <li><a class="dropdown-item <?php if($_SERVER['REQUEST_URI'] == "/our-service.php"){echo "active";} ?>" href="our-service.php">Our services</a></li>
                           <li><a class="dropdown-item <?php if($_SERVER['REQUEST_URI'] == "/wwis-hybrid-curriculum.php"){echo "active";} ?>" href="wwis-hybrid-curriculum.php">WWIS Hybrid Curriculum</a></li>
                           <li><a class="dropdown-item <?php if($_SERVER['REQUEST_URI'] == "/admissions-and-curricular.php"){echo "active";} ?>" href="admissions-and-curricular.php">Admissions & Curricular</a></li>

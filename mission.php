@@ -4,13 +4,7 @@
                     <div class="coursecard-single">
                         <div class="content-main-top">
                             <h4 class="animated wow fadeInUp" data-wow-delay=".3s"><a href="#">Mission Statement</a></h4>
-                            <p class="animated wow fadeInUp" data-wow-delay=".4s">To provide high quality education and child care in a safe belonging environment for a diverse community of socio economic religious and cultural backgrounds</p>
-
-                            <p class="mt-4 animated wow fadeInUp" data-wow-delay=".3s">To nurture future leaders to be academically emotionally ethically and spiritually ready to lead with excellence and strive to their best in their fields of endeavor</p>
-
-                            <p class="mt-4 animated wow fadeInUp" data-wow-delay=".3s">To empower all students to embrace learning, achieve their personal best and build their emotional, social and physical well-being. </p>
-
-                            <p class="animated wow fadeInUp" data-wow-delay=".4s">To build a strong family culture and support system between teaching nonteaching staff parents and guardians committed to the total wellbeing of students through parent teacher student support/fellowship and skills training</p>
+                            <p class="animated wow fadeInUp" data-wow-delay=".4s">To provide transformative education that empowers students to excel academically, think critically, and lead with integrity. Through holistic learning experiences, we cultivate global leaders committed to making a positive impact on society.</p>
 
                             <?php if($_SERVER['REQUEST_URI'] == "/index.php"){
                                 ?>
@@ -28,7 +22,7 @@
                         
                         <div class="content-main-top animated wow fadeInUp" data-wow-delay=".5s">
                             <h4><a href="about.php">Vision Statement</a></h4>
-                            <p>To become a first-class school which provides our students and staff a safe, positive and stimulating learning and teaching environment providing a hybrid curriculum that is locally and internationally recognized to prepare them to become responsible, productive, ethical, innovative and compassionate leaders in their diverse communities.</p>
+                            <p>Our vision is to be recognised locally nationally and internationally as a premier educational institution, dedicated to nurturing holistic development in students. We aim to cultivate principled leaders who champion excellence and integrity, with a commitment to serve and elevate society.</p>
 
                             <?php if($_SERVER['REQUEST_URI'] == "/index.php"){
                                 ?>

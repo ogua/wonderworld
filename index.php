@@ -1,15 +1,13 @@
 <?php
   include('db/db.php');
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Wonder World International School | Home</title>
+    
+    <title>Wonder World International School | Home</title>
 
   <meta name="description" content="We believe students learn best when they feel safe, valued and happy. Our staff is committed to providing an environment that nurtures personal growth and self-esteem.">
 
@@ -34,240 +32,282 @@
     
     <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/ico">
 
-    <!-- Google fonts -->
-    <link href="//fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <!-- Template CSS Style link -->
-    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@600&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-    <!--animate-->
-    <link href="/assets/css/animate.css" rel="stylesheet" type="text/css" media="all">
-    <script src="/assets/js/wow.js"></script>
-    <script>
-        new WOW().init();
-    </script>
+    <!-- Libraries Stylesheet -->
+    <link href="/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
 
-    
 
-    <!-- header -->
-    <?php include('nav.php') ?>
-    <!-- //header -->
+        <?php include('navbar.php') ?>
 
-    <!-- banner section -->
-    <section id="home" class="w3l-banner py-5">
-        <div class="banner-content">
-            <div class="container py-4">
-                <div class="row align-items-center pt-sm-5 pt-4">
-                    <div class="col-md-7">
-                        <h3 class="mb-lg-4 mb-3">Empowering Minds<span class="d-block">Shaping Leaders</span>
-                        </h3>
-                        <p class="banner-sub">A Journey of Excellence and Integrity</p>
-                        <div class="d-flex align-items-center buttons-banner">
-                            <a href="tel:+233 55 823 0501" class="btn btn-style mt-lg-5 mt-4">Contact Us</a>
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .2);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-2 text-white animated slideInDown mb-4">Empowering Minds</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">A Journey of Excellence and Integrity <br></p>
+                                    <a href="contact-us.php" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Contact Us</a>
+                                    <a href="admission-requirements.php" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Enroll Now</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-5 right-banner-2 text-end position-relative mt-md-0 mt-5">
-                        <div class="sub-banner-image mx-auto">
-                            <img src="assets/images/banner.png" class="img-fluid position-relative" alt=" ">
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .2);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-2 text-white animated slideInDown mb-4">Shaping Leaders</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">A Journey of Excellence and Integrity</p>
+                                    <a href="contact-us.php" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Contact Us</a>
+                                    <a href="admission-requirements.php" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Enroll Now</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="banner-style-1 position-absolute">
-                            <div class="banner-style-2 position-relative">
-                                <h4>Welcome back to School</h4>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .2);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-2 text-white animated slideInDown mb-4">Shaping Leaders</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">A Journey of Excellence and Integrity</p>
+                                    <a href="contact-us.php" class="btn btn-primary rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Contact Us</a>
+                                    <a href="admission-requirements.php" class="btn btn-dark rounded-pill py-sm-3 px-sm-5 animated slideInRight">Enroll Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- //banner section -->
+        <!-- Carousel End -->
 
-    <!-- mission visio core  -->
-    <?php include('mission.php') ?>
-    <!-- //mission visio core -->
 
-    <!-- why choose block -->
-    <section class="w3l-service-1 py-5">
-        <div class="container py-md-5 py-4">
-            <div class="title-main text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
-                <p class="text-uppercase">Featured Video</p>
-                <h3 class="title-style"></h3>
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 avlign-items-center">
+                    <div class="col-lg-6 about-img wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <img class="img-fluid w-75 rounded-circle bg-light p-3" src="img/Mrs-Jalia-Dekyi.jpeg" alt="">
+                            </div>                            
+                        </div>
+
+                        <div class="ms-3 text-center mt-3" data-wow-delay="0.1s">
+                        <h6 class="text-primary mb-1 ">Mrs. Jalia Dekyi</h6>
+                        <small>Principal</small>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="mb-4">Our Principals message</h1>
+                        <p>Greetings to our cherished parents, guardians, and remarkable community of learners,
+I am Mrs. Jalia Dekyi, and it is with great honor and a heart full of joy that I welcome you to Wonder World International School.
+In the nurturing ground of WWIS, where dreams take roots, we witness a harmonious blend of the rich educational philosophies drawn from various corners of the world. My journey through different educational systems across a myriad of countries has instilled in me a deep appreciation for diverse learning styles. It has gifted me a vision - a vision to foster a learning environment that is not just rich in knowledge but steeped in values, fostering holistic growth in our learners.</p>
+                        <p class="mb-4">At WWIS, we stand tall on a curriculum that is a unique blend of the Ghanaian, British, and American educational spheres, further enriched with the Montessori approach for our preschool prodigies. This integrated approach is not merely a curriculum; it is a commitment to nurturing global citizens who are ready to champion change with integrity and excellence.</p>
+                        <p class="mb-4">Our journey since 2017 has been one of transformation, resilience, and untiring spirit to rise above challenges, including the unprecedented Covid-19 pandemic. It has been a journey where each hurdle strengthened our resolve to forge ahead with unwavering determination.</p>
+                        
+                        <div class="row g-4 align-items-center">
+                            <div class="col-sm-6">
+                                <a class="btn btn-primary rounded-pill py-3 px-5" href="about-us.php">Read More</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
-            <div class="content23-col-2 text-center">
-                <div class="col-md-12">
-                    <!-- <iframe width="100%" height="500" src="https://www.youtube.com/embed/kK66FSFdLrs?si=My7Ex2Qgq3u0R1KO&showinfo=0&modestbranding=0" color="red" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <!-- About End -->
 
-                    <hr> -->
 
-        <video width="100%" height="auto" title="WELCOME TO WONDER WORLD INTERNATIONAL SCHOOL" style="background-color: #000;"controls>
+        <!-- Facilities Start -->
+        <!-- <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">School Facilities</h1>
+                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-primary">
+                                <span class="bg-primary"></span>
+                                <i class="fa fa-bus-alt fa-3x text-primary"></i>
+                                <span class="bg-primary"></span>
+                            </div>
+                            <div class="facility-text bg-primary">
+                                <h3 class="text-primary mb-3">School Bus</h3>
+                                <p class="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-success">
+                                <span class="bg-success"></span>
+                                <i class="fa fa-futbol fa-3x text-success"></i>
+                                <span class="bg-success"></span>
+                            </div>
+                            <div class="facility-text bg-success">
+                                <h3 class="text-success mb-3">Playground</h3>
+                                <p class="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-warning">
+                                <span class="bg-warning"></span>
+                                <i class="fa fa-home fa-3x text-warning"></i>
+                                <span class="bg-warning"></span>
+                            </div>
+                            <div class="facility-text bg-warning">
+                                <h3 class="text-warning mb-3">Healthy Canteen</h3>
+                                <p class="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="facility-item">
+                            <div class="facility-icon bg-info">
+                                <span class="bg-info"></span>
+                                <i class="fa fa-chalkboard-teacher fa-3x text-info"></i>
+                                <span class="bg-info"></span>
+                            </div>
+                            <div class="facility-text bg-info">
+                                <h3 class="text-info mb-3">Positive Learning</h3>
+                                <p class="mb-0">Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Facilities End -->
+
+
+        <!-- Call To Action Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="bg-light rounded">
+                    <div class="row g-0">
+                        <div class="col-lg-offset-1 col-lg-10 wow fadeIn" data-wow-delay="0.6s">
+                            <div class="h-100 d-flex flex-column justify-content-center p-5">
+                                <h1 class="mb-4 wow fadeInUp" data-wow-delay="0.6s">Why Choose us</h1>
+                                <p class="mb-4">Parents should choose Wonder World International School (WWIS) for several compelling reasons that align with the best interests of their children's holistic development and future success. Below are the reasons grounded in the rich history, vision, mission, and core values of WWIS:</p>
+                                <p class="mb-4">Hybrid Curriculum:</p>
+                                <p class="mb-4">Multicultural Approach: A unique combination of Ghanaian, British, and American curricula offers a diverse and rich learning experience.</p>
+                                <p class="mb-4">Montessori for Preschoolers: This ensures that even the youngest learners are nurtured in a way that encourages natural learning and personal development.</p>
+                                <p class="mb-4">Historical Background:</p>
+                                <p class="mb-4">Proven Track Record: Established in 2017, the school has grown steadfastly, showing resilience and adaptability, which are testament to its firm foundation and progressive vision.</p>
+                                <p class="mb-4">Online Learning Infrastructure: The COVID-19 pandemic accelerated the development of an online learning environment that breaks geographical barriers, allowing students from different parts of the world to be a part of the WWIS family.</p>
+                                <p class="mb-4">Global Recognition and Vision:</p>
+                                <p class="mb-4">Ambitious Vision: Striving for local, national, and international recognition, WWIS nurtures students to be global leaders embodying excellence and integrity.</p>
+                                <p class="mb-4">Holistic Development: The focus is not only on academics but also on developing principled leaders who are ready to serve and elevate society.</p>
+                                <p class="mb-4">Mission:</p>
+                                <p class="mb-4">Transformative Education: WWIS is committed to providing education that fosters critical thinking and integrity, equipping students to excel academically and make a positive impact on society.
+    • Holistic Learning Experience: Learning at WWIS goes beyond textbooks, nurturing students into well-rounded individuals with a global perspective.</p>
+                                <p class="mb-4">Core Values:</p>
+                                <p class="mb-4">Values-Based Education: Grounded in fundamental values such as respect and empathy, the school fosters individuals ready to positively influence their communities.</p>
+                                <p class="mb-4">Accountability and Integrity: By instilling these values, WWIS ensures students learn the importance of ethical behavior and self-discipline, which are essential in personal growth.</p>
+                                <p class="mb-4">Excellence and Service: Students are encouraged to strive for the highest standards while also learning the importance of contributing positively to society.</p>
+                                <p class="mb-4">Community and Teamwork:</p>
+                                <p class="mb-4">Diverse and Inclusive: The school promotes respect and understanding of diverse perspectives, fostering a supportive community and healthy relationships.</p>
+                                <p class="mb-4">Collaborative Learning: Students learn the value of teamwork, which is crucial in solving complex problems and forging strong relationships in the future.</p>
+                                <p class="mb-4">Leadership:</p>
+                                <p class="mb-4">Focus on Global Leadership: WWIS encourages students to develop leadership skills adaptable to various cultural and international contexts, a vital skill in today's interconnected world.</p>
+                                <p class="mb-4">Choosing WWIS means choosing an institution committed to nurturing not only great minds but also great hearts, steering forward with joy, nurturing, and boundless potential since its inception. It is the choice for parents seeking a joyful, educational, and nurturing environment for their children to blossom into principled and globally adept leaders of the future.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call To Action End -->
+
+
+        <!-- Classes Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">FEATURED VIDEO</h1>
+                    <p></p>
+                </div>
+
+                <video width="100%" height="auto" title="WELCOME TO WONDER WORLD INTERNATIONAL SCHOOL" style="background-color: #000;"controls>
             <source src="/assets/videos/wonder-world.mp4" type="video/mp4">
                 Error Message
         </video>
-
-                </div>
+                
             </div>
         </div>
-    </section>
-    <!-- //why choose block -->
+        <!-- Classes End -->
 
-    <!-- home image with content block -->
-    <section class="w3l-servicesblock pt-lg-5 pt-4 pb-5 mb-lg-5" id="about">
-        <div class="container pb-md-5 pb-4">
-            <div class="row pb-xl-5 align-items-center">
-                <div class="col-lg-6 position-relative home-block-3-left pb-lg-0 pb-5">
-                    <div class="position-relative">
-                        <img src="assets/images/img1.jpg" alt="" class="img-fluid radius-image">
-                    </div>
-                    <!-- <div class="imginfo__box">
-                        <h6 class="imginfo__title">Get a Appointment Today!</h6>
-                        <p></p>
-                        <a href="tel:+233 55 823 0501"><i class="fas fa-phone-alt"></i>Call for booking</a>
-                    </div> -->
-                </div>
-                <div class="col-xl-5 col-lg-6 offset-xl-1 mt-lg-0 mt-5 pt-lg-0 pt-5">
-                    <h3 class="title-style">Admission requirements and Form Submission</h3>
-                    <p class="mt-4">Upon completing the admission form, please return it to the security post and inform us via email/call/WhatsApp. </p>
+        <!-- Testimonial Start -->
+        <?php
+          include('testimonial.php');
+        ?>
+        <!-- Testimonial End -->
 
-                    <p class="mt-4">Kindly attach the following to the admission form before returning it:</p>
 
-                    <ul class="mt-4 list-style-lis pt-lg-1">
-                        <li><i class="fas fa-check-circle"></i>Copies of three (3) terms’ reports or academic certificates from the previous school when student is coming from another school or is 4 years or older.</li>
-                        <li><i class="fas fa-check-circle"></i>One passport-size picture</li>
-                        <li><i class="fas fa-check-circle"></i>A copy of the photo page of your ward's passport or birth certificate as proof of his date of birth. </li>
-                        <li><i class="fas fa-check-circle"></i>A copy of Immunization records or Doctor’s report where applicable</li>
-                    </ul>
-                    <a href="tel:+233 55 823 0501" class="btn btn-style mt-5">Inform Us</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //home image with content block -->
+        <?php
+          include('footer.php');
+        ?>
 
-    
 
-    <!-- why choose block -->
-    <section class="w3l-service-1 py-5">
-        <div class="container py-md-5 py-4">
-            <div class="title-main text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
-                <p class="text-uppercase">Why Choose Us</p>
-                <h3 class="title-style">Tools For Teachers And Learners</h3>
-            </div>
-            <div class="row content23-col-2 text-center">
-                <div class="col-md-6">
-                    <div class="content23-grid content23-grid1">
-                        <h4><a href="about.html">Expert Teachers</a></h4>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-md-0 mt-4">
-                    <div class="content23-grid content23-grid2">
-                        <h4><a href="about.html">Safe Environment</a></h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //why choose block -->
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
 
-    <!-- stats block -->
-    <?php include('statistics.php') ?>
-    <!-- //stats block -->
+    <!-- JavaScript Libraries -->
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/lib/wow/wow.min.js"></script>
+    <script src="/lib/easing/easing.min.js"></script>
+    <script src="/lib/waypoints/waypoints.min.js"></script>
+    <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- testimonials block -->
-    <?php include('testimonial.php') ?>
-    <!-- //testimonials block -->
-
-    <!-- blog block -->
-    <?php include('posts.php') ?>
-    <!-- //blog block -->
-
-    <!-- footer block -->
-    <?php include('footer.php') ?>
-    <!-- //footer block -->
-
-    <!-- Js scripts -->
-    <!-- move top -->
-    <button onclick="topFunction()" id="movetop" title="Go to top">
-        <span class="fas fa-level-up-alt" aria-hidden="true"></span>
-    </button>
-    <script>
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () {
-            scrollFunction()
-        };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("movetop").style.display = "block";
-            } else {
-                document.getElementById("movetop").style.display = "none";
-            }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-    <!-- //move top -->
-
-    <!-- common jquery plugin -->
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <!-- //common jquery plugin -->
-
-    <!-- /counter-->
-    <script src="assets/js/counter.js"></script>
-    <!-- //counter-->
-
-    <!-- theme switch js (light and dark)-->
-    <script src="assets/js/theme-change.js"></script>
-    <!-- //theme switch js (light and dark)-->
-
-    <!-- MENU-JS -->
-    <script>
-        $(window).on("scroll", function () {
-            var scroll = $(window).scrollTop();
-
-            if (scroll >= 80) {
-                $("#site-header").addClass("nav-fixed");
-            } else {
-                $("#site-header").removeClass("nav-fixed");
-            }
-        });
-
-        //Main navigation Active Class Add Remove
-        $(".navbar-toggler").on("click", function () {
-            $("header").toggleClass("active");
-        });
-        $(document).on("ready", function () {
-            if ($(window).width() > 991) {
-                $("header").removeClass("active");
-            }
-            $(window).on("resize", function () {
-                if ($(window).width() > 991) {
-                    $("header").removeClass("active");
-                }
-            });
-        });
-    </script>
-    <!-- //MENU-JS -->
-
-    <!-- disable body scroll which navbar is in active -->
-    <script>
-        $(function () {
-            $('.navbar-toggler').click(function () {
-                $('body').toggleClass('noscroll');
-            })
-        });
-    </script>
-    <!-- //disable body scroll which navbar is in active -->
-
-    <!-- bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- //bootstrap -->
-    <!-- //Js scripts -->
+    <!-- Template Javascript -->
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
