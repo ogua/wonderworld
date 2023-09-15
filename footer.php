@@ -66,7 +66,7 @@
                             <div class="footer-menu">
                                 <a href="/">Home</a>
                                 <a href="">Help</a>
-                                <a href="">FQAs</a>
+                                <a href="index-n.php">FQAs</a>
                             </div>
                         </div>
                     </div>
