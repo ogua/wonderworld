@@ -5,10 +5,11 @@
 <html lang="en">
 
 <head>
-    <title>Wonder World International School | Home</title>
-    
     <meta charset="utf-8">
-    <meta name="description" content="Welcome to the official website of Wonder World International School, get all the latest information about Wonder World International School.">
+    
+    <title>Wonder World International School | Home</title>
+
+  <meta name="description" content="Welcome to the official website of Wonder World International School, get all the latest information about Wonder World International School.">
 
   <meta name="keywords" content="Wonder World International School, Wonder World, About Wonder World, About Wonder World International, Schools at Teshie, Wonder World, about Wonder World, Wonder World gallary, Wonder World images, Wonder World videos, Wonder World events, Wonder World school system, oguse it solutions, oguses, OguSesITSolutions, oguaschoolz">
 
@@ -28,8 +29,9 @@
   <meta name="twitter:description" content="Welcome to the official website of Wonder World International School, get all the latest information about Wonder World International School." />
 
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Wonder World International School | Home","description":"Welcome to the official website of Wonder World International School, get all the latest information about Wonder World International School.","image":"https://wonderworldinternationalschool.com/assets/images/banner.jpg"}</script>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/ico">
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,20 +42,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="/lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-
-    <style type="text/css">
-        .gotop{
-            margin: -20px;
-        }
-    </style>
+    <link href="/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -67,9 +63,7 @@
         <!-- Spinner End -->
 
 
-        <!-- Navbar Start -->
         <?php include('navbar.php') ?>
-        <!-- Navbar End -->
 
 
         <!-- Carousel Start -->
@@ -123,9 +117,6 @@
             </div>
         </div>
         <!-- Carousel End -->
-
-
-        
 
 
         <!-- About Start -->
@@ -298,15 +289,10 @@ In the nurturing ground of WWIS, where dreams take roots, we witness a harmoniou
         <!-- Testimonial End -->
 
 
-        <!-- About End -->
-
-
-        <!-- About End -->
-        <!-- Footer Start -->
         <?php
           include('footer.php');
         ?>
-        <!-- Footer End -->
+
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
@@ -315,13 +301,13 @@ In the nurturing ground of WWIS, where dreams take roots, we witness a harmoniou
     <!-- JavaScript Libraries -->
     <script src="/js/jquery-3.4.1.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/lib/wow/wow.min.js"></script>
+    <script src="/lib/easing/easing.min.js"></script>
+    <script src="/lib/waypoints/waypoints.min.js"></script>
+    <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>

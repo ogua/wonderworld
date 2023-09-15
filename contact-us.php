@@ -2,19 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
     <title>Wonder World International School | Contact Us</title>
     
     <meta charset="utf-8">
     <meta name="description" content="Get In Touch with Wonder World International School, Adjiriganor, East-Legon,
-(Father Odai Kwabina Street) GD-210-9384..">
+(Father Odai Kwabina Street) GD-210-9384.">
 
   <meta name="keywords" content="Wonder World International School, Wonder World, About Wonder World, About Wonder World International, Schools at Teshie, Wonder World, about Wonder World, Wonder World gallary, Wonder World images, Wonder World videos, Wonder World events, Wonder World school system, oguse it solutions, oguses, OguSesITSolutions, oguaschoolz">
 
   <link rel="canonical" href="https://wonderworldinternationalschool.com/contact-us.php"/>
 
   <meta property="og:description" content="Get In Touch with Wonder World International School, Adjiriganor, East-Legon,
-(Father Odai Kwabina Street) GD-210-9384.." />
+(Father Odai Kwabina Street) GD-210-9384." />
 
   <meta property="og:title" content="Wonder World International School | Contact Us" />
   <meta property="og:type" content="website" />
@@ -26,12 +25,11 @@
   <meta name="twitter:site" content="@blogogua" />
   <meta name="twitter:image" content="https://wonderworldinternationalschool.com/assets/images/banner.jpg" />
   <meta name="twitter:description" content="Get In Touch with Wonder World International School, Adjiriganor, East-Legon,
-(Father Odai Kwabina Street) GD-210-9384.." />
+(Father Odai Kwabina Street) GD-210-9384." />
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Wonder World International School | Contact Us","description":"Get In Touch with Wonder World International School, Adjiriganor, East-Legon,(Father Odai Kwabina Street) GD-210-9384..","image":"https://wonderworldinternationalschool.com/assets/images/banner.jpg"}</script>
-    
-    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/ico">
-
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Wonder World International School | Contact Us","description":"Get In Touch with Wonder World International School, Adjiriganor, East-Legon,(Father Odai Kwabina Street) GD-210-9384.","image":"https://wonderworldinternationalschool.com/assets/images/banner.jpg"}</script>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,6 +48,12 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style type="text/css">
+        .gotop{
+            margin: -20px;
+        }
+    </style>
 </head>
 
 <body>
@@ -74,8 +78,8 @@
                 <h1 class="display-2 text-white animated slideInDown mb-4">Contact Us</h1>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        
                         <li class="breadcrumb-item text-white active" aria-current="page">Contact Us</li>
                     </ol>
                 </nav>
@@ -167,12 +171,12 @@
         <!-- Contact End -->
 
 
+        <!-- About End -->
         <!-- Footer Start -->
         <?php
           include('footer.php');
         ?>
         <!-- Footer End -->
-
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
