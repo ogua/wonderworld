@@ -1,3 +1,4 @@
+
 <?php
   include('db/db.php');
 ?>
@@ -52,6 +53,16 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery/5.10.3/css/nanogallery.min.css" integrity="sha512-HaGJl1RVe2w3indAm833x0NZ/IL9CJ8hEPMOHFhYkb9PcwHGxEzPKS/ZImATujRcbMWfyiBKy7+pycpzvGkwPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery/5.10.3/css/themes/clean/nanogallery_clean.min.css" integrity="sha512-+XSCO9D/4Q7Kuzx+XMMr7FtUY1rUVY3dmfpBG4yp0w+yi4vedvvM9v/mpJqwt9B1EPKwQpjC/U5UNP3Q11xnig==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery/5.10.3/css/nanogallery.woff.min.css" integrity="sha512-ApM3TWSvO5syrBiMkLJNFR7MMcKyCjDLkRgrHeCRsKw4waU0pFQcf6uFeGkcc40xeO1he7bh1sX8oxyZgOhcjg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery/5.10.3/css/themes/clean/nanogallery_clean.min.css" integrity="sha512-+XSCO9D/4Q7Kuzx+XMMr7FtUY1rUVY3dmfpBG4yp0w+yi4vedvvM9v/mpJqwt9B1EPKwQpjC/U5UNP3Q11xnig==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery/5.10.3/css/themes/light/nanogallery_light.min.css" integrity="sha512-4tNORj+HIrfPpPXLm2ExvyyrNxK+PRCyu1XvmRdRzcjYYFn7Uv5Qvs3FLZz5QBvfvpoTj+Wz2WlQMb2+VFduzw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -92,7 +103,8 @@
                 <p class="text-uppercase">Our Beautiful Moments</p>
                 <h3 class="title-style">School Premises</h3>
             </div>
-            <div class="row justify-content-center">
+            
+                <div id="nanoGallery3">
                 <?php
                     $sql = "SELECT * FROM imageuploads WHERE uniqueid = '".$uniqueid."' and cat = '2' ";
                     $query = mysqli_query($conn,$sql);
@@ -103,7 +115,12 @@
                     if($countrows > 0){
                     while ($row = mysqli_fetch_assoc($query)) {
                         ?>
-                <div class="proj_gallery_grid col-lg-4 col-md-6 mt-md-0 mt-4">
+
+            
+                <a href="<?php echo $row['url'];?>" data-ngthumb="<?php echo $row['url'];?>"></a>
+            
+
+                <!-- <div class="proj_gallery_grid col-lg-4 col-md-6 mt-md-0 mt-4">
                     <a href="<?php echo $schoolurl;?>/storage/<?php echo $row['url'];?>">
                     <div class="coursecard-single">
                         <div class="grids5-info position-relative">
@@ -119,7 +136,7 @@
                             
                         </div>
                     </div></a>
-                </div>
+                </div> -->
                  <?php
                     }
                     }else{
@@ -128,8 +145,7 @@
                         <?php
                     }
                 ?>
-                
-            </div>
+                </div>
             <!-- pagination -->
             <!-- <div class="pagination-style text-center mt-5">
                 <ul>
@@ -151,7 +167,6 @@
                 </ul>
             </div> -->
             <!-- //pagination -->
-        </div>
     </div>
         <!-- Classes End -->
 
@@ -180,10 +195,33 @@
     <!-- simpleLightbox -->
     <link href="/assets/css/simpleLightbox.css" rel='stylesheet' type='text/css' />
     <script src="/assets/js/simpleLightbox.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery/5.10.3/jquery.nanogallery.min.js" integrity="sha512-jSebf6hNUwUCwuXVxRXGl3SyGluTJx7NvgCA8Ewf7mgMMpDX8DLkyHkhRexhQCbFI8Ylykzvmsi/nBDuZBppKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script>
         $('.proj_gallery_grid a').simpleLightbox();
     </script>
     <!-- //simpleLightbox -->
+
+    <script>
+        $(document).ready(function () {
+
+      // $("#nanoGallery3").nanoGallery({
+      //     itemsBaseURL:'https://brisbois.fr/nanogallery/demonstration/'
+      // });
+
+      jQuery("#nanoGallery3").nanoGallery({
+            thumbnailWidth: 'auto',
+            thumbnailHeight: 160,
+                locationHash: false,
+            thumbnailHoverEffect:'borderLighter,imageScaleIn80',
+            theme:'clean',
+            colorScheme:'light',
+            itemsBaseURL:'<?php echo $schoolurl;?>/storage/'
+          });
+
+        });
+    </script>
 
 
 </body>
