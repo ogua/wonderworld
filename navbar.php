@@ -16,7 +16,7 @@
                             <a href="history.php" class="dropdown-item <?php if($_SERVER['REQUEST_URI'] == "/history.php"){echo "active";} ?>">History</a>
                             <a href="about-us.php" class="dropdown-item <?php if($_SERVER['REQUEST_URI'] == "/about-us.php"){echo "active";} ?>">About Us</a>
                             <a href="admission-requirements.php" class="dropdown-item <?php if($_SERVER['REQUEST_URI'] == "/admission-requirements.php"){echo "active";} ?>">Admission requirements</a>
-                            <!-- <a href="princpal-message.php" class="dropdown-item <?php if($_SERVER['REQUEST_URI'] == "/princpal-message.php"){echo "active";} ?>">Principals message</a> -->
+                            <a href="anti-bullying-policy.php" class="dropdown-item <?php if($_SERVER['REQUEST_URI'] == "/anti-bullying-policy.php"){echo "active";} ?>">Anti-Bullying Policy</a>
                             <a href="our-testimonial.php" class="dropdown-item <?php if($_SERVER['REQUEST_URI'] == "/our-testimonial.php"){echo "active";} ?>">Testimonial</a>
                             
                             <!-- <a href="404.html" class="dropdown-item">404 Error</a> -->
