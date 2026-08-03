@@ -303,6 +303,13 @@
   margin-top: var(--space-sm);
   padding: var(--space-md);
   box-shadow: var(--shadow-lg);
+  /* .site-nav is `position: fixed`, so this panel never scrolls with the
+     page — without its own max-height + scroll, a menu this long (10 nav
+     groups) runs off the bottom of the screen with no way to reach the
+     lower links. Reserve roughly the header bar's own height. */
+  max-height: calc(100svh - 6rem);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .site-nav__mobile.is-open {
