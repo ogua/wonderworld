@@ -1,0 +1,356 @@
+/* Homepage-only layout. Never redeclares component looks from components.css. */
+
+/* ---------- Hero ---------- */
+
+.home-hero {
+  position: relative;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: var(--color-primary-dark);
+}
+
+.home-hero__slide {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 1.2s ease;
+}
+
+.home-hero__slide.is-active {
+  opacity: 1;
+}
+
+/* Ken Burns: the photo lives on its own layer so only the background scales,
+   never the caption text. Transition (not @keyframes) so the outgoing slide
+   eases back to scale(1) in the background while faded out, rather than
+   snapping — by the time it's active again next cycle it's already reset. */
+.home-hero__slide-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  transform: scale(1);
+  transition: transform 7s ease-out;
+}
+
+.home-hero__slide.is-active .home-hero__slide-bg {
+  transform: scale(1.08);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-hero__slide-bg {
+    transition: none;
+  }
+  .home-hero__slide.is-active .home-hero__slide-bg {
+    transform: scale(1);
+  }
+}
+
+.home-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(30, 64, 175, 0.92) 0%,
+    rgba(30, 64, 175, 0.88) 35%,
+    rgba(30, 64, 175, 0.35) 65%,
+    rgba(30, 64, 175, 0.15) 85%
+  );
+}
+
+.home-hero__content {
+  position: relative;
+  z-index: 2;
+  color: var(--color-white);
+  padding-block: var(--space-2xl);
+  max-width: 640px;
+}
+
+.home-hero__eyebrow {
+  color: var(--color-accent);
+}
+
+.home-hero__content h1 {
+  color: var(--color-white);
+}
+
+.home-hero__lead {
+  font-size: var(--fs-lead);
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 46ch;
+}
+
+.home-hero__ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+}
+
+/* Lives inside .home-hero__slide (which is itself absolutely positioned and
+   already crossfades via opacity) so the caption fades in sync with its own
+   background image — no separate JS-driven text swap that could fall out of
+   step with the image transition. */
+.home-hero__caption {
+  position: absolute;
+  z-index: 2;
+  right: var(--space-md);
+  bottom: 96px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.875rem;
+  max-width: 240px;
+  text-align: right;
+  display: none;
+}
+
+.home-hero__dots {
+  position: absolute;
+  z-index: 3;
+  left: var(--space-md);
+  bottom: 40px;
+  display: flex;
+  gap: var(--space-xs);
+}
+
+@media (min-width: 768px) {
+  .home-hero__caption {
+    display: block;
+  }
+  .home-hero__dots {
+    left: var(--space-lg);
+  }
+}
+
+.home-hero__dot {
+  position: relative;
+  width: 32px;
+  height: 4px;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.35);
+  border: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+.home-hero__dot-fill {
+  position: absolute;
+  inset: 0;
+  width: 0%;
+  background: var(--color-accent);
+  border-radius: inherit;
+}
+
+.home-hero__dot.is-active .home-hero__dot-fill {
+  animation: homeHeroDotFill 6s linear forwards;
+}
+
+@keyframes homeHeroDotFill {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-hero__dot.is-active .home-hero__dot-fill {
+    animation: none;
+    width: 100%;
+  }
+}
+
+.home-hero__arc {
+  position: absolute;
+  z-index: 2;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  color: var(--color-white);
+}
+
+/* ---------- About / Principal ---------- */
+
+.home-about__grid {
+  display: grid;
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .home-about__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .home-about__grid--reverse .home-about__media {
+    order: 2;
+  }
+}
+
+/* ---------- Mission / Vision / Values ---------- */
+
+.home-values__more-grid {
+  display: grid;
+  gap: var(--space-md);
+  grid-template-columns: 1fr;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s ease;
+}
+
+.home-values__more-grid.is-open {
+  max-height: 2000px;
+}
+
+@media (min-width: 768px) {
+  .home-values__more-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-values__more-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.home-values__toggle {
+  display: block;
+  margin-inline: auto;
+  margin-top: var(--space-lg);
+  background: none;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  border-radius: var(--radius-pill);
+  padding: 0.75rem 1.5rem;
+  font-weight: 700;
+}
+
+.home-values__toggle:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+/* ---------- Programs ---------- */
+
+/* ---------- Why choose us ---------- */
+
+/* ---------- Stats ---------- */
+
+/* ---------- Gallery preview ---------- */
+
+.home-gallery__grid {
+  display: grid;
+  gap: var(--space-sm);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 768px) {
+  .home-gallery__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.home-gallery__item {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  position: relative;
+}
+
+.home-gallery__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.home-gallery__item:hover img {
+  transform: scale(1.06);
+}
+
+.home-gallery__cta {
+  text-align: center;
+  margin-top: var(--space-lg);
+}
+
+/* ---------- Featured video ---------- */
+
+.home-video__wrap {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  max-width: 960px;
+  margin-inline: auto;
+}
+
+.home-video__wrap video {
+  width: 100%;
+  display: block;
+  background: #000;
+}
+
+.home-video__play {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(16, 25, 58, 0.25);
+  border: none;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.home-video__play-icon {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: var(--color-primary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.home-video__play:hover .home-video__play-icon {
+  transform: scale(1.08);
+}
+
+.home-video__play.is-hidden {
+  display: none;
+}
+
+/* ---------- Community: testimonials / events / news ---------- */
+
+/* ---------- FAQ + CTA ---------- */
+
+.home-faq__grid {
+  display: grid;
+  gap: var(--space-xl);
+}
+
+@media (min-width: 992px) {
+  .home-faq__grid {
+    grid-template-columns: 1.2fr 1fr;
+  }
+}
+
+/* ---------- Map + contact ---------- */
+
+.home-contact__grid {
+  display: grid;
+  gap: var(--space-xl);
+}
+
+@media (min-width: 992px) {
+  .home-contact__grid {
+    grid-template-columns: 1.2fr 1fr;
+  }
+}
+

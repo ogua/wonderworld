@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /partials/
+Disallow: /workfiles/
+
+Sitemap: https://wonderworldinternationalschool.com/sitemap.xml

@@ -1,0 +1,67 @@
+/*
+  Design tokens — single source of truth for color, type, spacing, radius,
+  shadow, and breakpoints. Loaded once via partials/head.php on every page.
+
+  Naming convention (avoids the class-collision problem generic names cause):
+  every component/section class is prefixed by its owning block, e.g.
+  `.home-hero`, `.home-hero__cta`, `.site-nav__link`, `.card--program`.
+  Never use bare generic names like `.section` or `.cta` alone — they are
+  exactly the kind of class that silently collides across component.css and
+  a page-specific stylesheet.
+*/
+
+:root {
+  /* Color */
+  --color-primary: #1E40AF;
+  --color-primary-dark: #14275C;
+  --color-accent: #FACC15;
+  --color-accent-dark: #CA9A0A;
+  --color-ink: #10193A;
+  --color-white: #FFFFFF;
+  --color-mist: #F4F7FD;
+  --color-border: #E2E8F5;
+
+  /* Type */
+  --font-display: 'Outfit', sans-serif;
+  --font-body: 'Manrope', sans-serif;
+
+  --fs-eyebrow: 0.8125rem;
+  --fs-body: 1rem;
+  --fs-lead: 1.125rem;
+  --fs-h3: clamp(1.25rem, 1rem + 1vw, 1.75rem);
+  --fs-h2: clamp(1.75rem, 1.3rem + 2vw, 2.75rem);
+  --fs-h1: clamp(2.25rem, 1.5rem + 3vw, 3.75rem);
+  --fs-stat: clamp(2rem, 1.4rem + 2.5vw, 3.25rem);
+
+  /* Spacing scale */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3.5rem;
+  --space-2xl: 5.5rem;
+
+  /* Radius / shadow */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 2px 8px rgba(16, 25, 58, 0.06);
+  --shadow-md: 0 12px 32px rgba(16, 25, 58, 0.10);
+  --shadow-lg: 0 24px 64px rgba(16, 25, 58, 0.16);
+
+  --container-max: 1280px;
+}
+
+/*
+  Breakpoints (reference only — CSS custom properties can't hold media query
+  ranges, so these are documented here and used literally in @media rules):
+    Mobile:              up to 575px
+    Large mobile/tablet:  576px – 767px
+    Tablet:                768px – 991px
+    Laptop:                992px – 1199px
+    Desktop:              1200px – 1439px
+    Large screens:        1440px and up
+*/

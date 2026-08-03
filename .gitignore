@@ -1,0 +1,13 @@
+# Local tooling / agent config
+.claude/
+.agents/
+.mcp.json
+skills-lock.json
+
+# Raw, unsorted camera-roll source (2GB+) — not deployable site assets.
+# Optimized derivatives that are actually used on pages live in asset/.
+workfiles/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
