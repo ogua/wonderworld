@@ -10,7 +10,7 @@ $siteUrl = 'https://wonderworldinternationalschool.com';
 $isHome = $isHome ?? false;
 $fullTitle = $pageTitle . ' | ' . $siteName;
 $canonical = $siteUrl . $canonicalPath;
-$ogImage = $siteUrl . '/asset/images/hero-graduation.jpg';
+$ogImage = $siteUrl . '/asset/images/logo-mark.png';
 
 if ($isHome) {
     $schema = [

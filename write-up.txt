@@ -1,3 +1,5 @@
+git clone -b wonderworld-new --single-branch https://github.com/ogua/wonderworld.git wonderworld-new
+
 
 WONDER WORLD INTERNATIONAL SCHOOL WEBSITE CONTENT
 1. Homepage

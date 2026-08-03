@@ -8,6 +8,9 @@ skills-lock.json
 # Optimized derivatives that are actually used on pages live in asset/.
 workfiles/
 
+# Local DB connection config (contains dev DB host/credentials) - never track.
+db/
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db

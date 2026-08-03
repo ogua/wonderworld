@@ -266,12 +266,20 @@
   background: var(--color-mist);
 }
 
-.site-nav__portal {
-  color: var(--color-accent);
+.site-nav__login {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1.25rem;
+  border-radius: var(--radius-pill);
+  background: var(--color-accent);
+  color: var(--color-primary-dark);
+  font-weight: 700;
+  font-size: 0.85rem;
+  white-space: nowrap;
 }
 
-.site-nav--scrolled .site-nav__portal {
-  color: var(--color-primary);
+.site-nav__login:hover {
+  background: var(--color-accent-dark);
 }
 
 .site-nav__toggle {
@@ -310,6 +318,20 @@
 
 .site-nav__mobile a:hover {
   background: var(--color-mist);
+}
+
+/* Higher specificity than `.site-nav__mobile a` above so the pill look
+   survives inside the mobile menu, not just on desktop. */
+.site-nav__mobile .site-nav__login {
+  background: var(--color-accent);
+  color: var(--color-primary-dark);
+  text-align: center;
+  justify-content: center;
+  margin-top: var(--space-xs);
+}
+
+.site-nav__mobile .site-nav__login:hover {
+  background: var(--color-accent-dark);
 }
 
 .site-nav__mobile-group-label {

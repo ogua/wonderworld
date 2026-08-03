@@ -4,10 +4,12 @@
  * by js/main.js adding `.site-nav--scrolled`). IA follows the client's
  * 10-section international-school standard (nav-structure.txt, 2026-07-29):
  * Home / About the School / Curriculum / Accreditation and Licensing /
- * Admissions / Leadership / School Life / Safeguarding and Learner Support /
- * Parent Information / Contact Us. News and Testimonials are intentionally
- * not in main nav per that standard: they're linked from the homepage and
- * footer instead.
+ * Admissions / Leadership / School Life / Parent Information / Contact Us.
+ * News and Testimonials are intentionally not in main nav per that standard:
+ * they're linked from the homepage and footer instead. Safeguarding and
+ * Learner Support moved out of main nav to the footer (2026-08-03, client
+ * request) to make room for the Login link; still reachable there and from
+ * the footer's legal-links row.
  */
 ?>
 <header>
@@ -67,8 +69,6 @@
         </ul>
       </li>
 
-      <li><a class="site-nav__link" href="safeguarding-policy.php">Safeguarding</a></li>
-
       <li class="site-nav__item--dropdown">
         <a class="site-nav__link" href="parent-information.php" aria-haspopup="true">Parents ▾</a>
         <ul class="site-nav__dropdown">
@@ -79,7 +79,7 @@
       </li>
 
       <li><a class="site-nav__link" href="contact.php">Contact</a></li>
-      <!-- <li><a class="site-nav__link site-nav__portal" href="https://oguaschoolz.com/admin" target="_blank" rel="noopener">Parent Portal ↗</a></li> -->
+      <li><a class="site-nav__login" href="https://app.wonderworldinternationalschool.com" target="_blank" rel="noopener">Login</a></li>
     </ul>
 
     <button class="site-nav__toggle" id="site-nav-toggle" aria-expanded="false" aria-controls="site-nav-mobile">
@@ -120,9 +120,6 @@
       <a href="events.php">Events</a>
       <a href="facilities.php">Facilities</a>
 
-      <span class="site-nav__mobile-group-label">&nbsp;</span>
-      <a href="safeguarding-policy.php">Safeguarding &amp; Learner Support</a>
-
       <span class="site-nav__mobile-group-label">Parent Information</span>
       <a href="parent-information.php">Parent Information</a>
       <a href="downloads.php">Downloads</a>
@@ -130,7 +127,7 @@
 
       <span class="site-nav__mobile-group-label">&nbsp;</span>
       <a href="contact.php">Contact Us</a>
-      <!-- <a href="https://oguaschoolz.com/admin" target="_blank" rel="noopener">Parent Portal ↗</a> -->
+      <a class="site-nav__login" href="https://app.wonderworldinternationalschool.com" target="_blank" rel="noopener">Login</a>
     </div>
   </div>
 </nav>

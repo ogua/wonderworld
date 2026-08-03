@@ -23,6 +23,7 @@
       <a class="site-footer__link" href="admissions.php">Admissions</a>
       <a class="site-footer__link" href="management-team.php">Leadership</a>
       <a class="site-footer__link" href="school-life.php">School Life</a>
+      <a class="site-footer__link" href="safeguarding-policy.php">Safeguarding &amp; Learner Support</a>
       <a class="site-footer__link" href="parent-information.php">Parent Information</a>
       <a class="site-footer__link" href="contact.php">Contact Us</a>
     </div>
